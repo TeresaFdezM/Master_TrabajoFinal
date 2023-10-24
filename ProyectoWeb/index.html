@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Teresa Mozo - Graphic & Web Designer</title>
+    <!-- CSS Flickity -->
+    <link rel="stylesheet" href="css/flickity.css">
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Inicio del Marco -->
+    <div class="marco">
+        <!-- Inicio Head -->
+        <header>
+            <a href="#" class="logo">
+                <h1>Teresa Mozo</h1>
+            </a>
+            <button class="btn-menu" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="menu-desk">
+                <a href="#s1">Home</a>
+                <a href="#s2">Services</a>
+                <a href="#s3">About</a>
+                <a href="#s4">Portfolio</a>
+                <a href="#s5">Contact</a>
+            </nav>
+        </header>
+        <!-- Fin Head -->
+        <!-- Sección 1 - Home -->
+            <section class="s1" id="s1">
+                <div class="s1-text">
+                    <h1>Hello!</h1>
+                    <h2>I'm a Graphic Designer and Web Developer</h2>
+                </div>
+            </section>
+        <!-- Fin Sección 1 - Home -->
+        <!-- Sección 2 - Services -->
+        <section class="s2" id="s2">
+            <h2>Services</h2>
+            <div class="s2-content">
+                <div class="servicio">
+                    <img src="img/icono_1.png" alt="icono">
+                    <h3>Graphic Design</h3>
+                    <p>I create visual pieces adapting to the graphic need of each brand, making sure that all your corporate visual identity is unique, professional, coherent and attractive.</p>
+                    <p class="services">Poster design, flyers, mail shots, advertising , social media graphics, presentation, print.</p>
+                </div>
+                <div class="servicio">
+                    <img src="img/icono_3.png" alt="icono">
+                    <h3>Branding</h3>
+                    <p>Effective and consistent branding makes a product or company connect with their target audience generating value and results. The branding process begins from the moment the idea is conceptualized with the client, until all the necessary resources are generated to materialize it.</p>
+                    <p class="services">Logo design, visual identity system, typography, colour palette, brand guidelines, brand patterns.</p>
+                </div>
+                <div class="servicio">
+                    <img src="img/icono_2.png" alt="icono">
+                    <h3>Web development</h3>
+                    <p>Modern, attractive and high velocity websites for brands that need to increase visibility on the internet or update their image with a redesing. Responsive experiences that will engage your audience and empower your brand.</p>
+                    <p class="services">Informational Websites, Corporate Websites, Promotional Websites, One Page Websites, Job Portals, eCommerce Websites, Portfolio Websites, Personal Blogs</p>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Sección 2 - Services -->
+        <!-- Sección 3 - About -->
+        <section class="s3" id="s3">
+            <h2>About</h2>
+            <div class="s3-content">
+                <img src="img/about.png" alt="foto">
+                <div class="s3-text">
+                    <h4>My name is Teresa</h4>
+                    <ul>
+                        <li>I’m living in Madrid but I’m willing to work worldwide.
+                        </li>
+                        <li>I’m organized and minucious.
+                        </li>
+                        <li> My profile combines web development and graphic design.
+                        </li>
+                        <li>I graduated at graphic design and I’m currently studying a master in web development.
+                        </li>
+                        <li>I create user-centric websites compatible with mobile and desktop devices, always using the latest technologies available.
+                        </li>
+                        <li>With my work I can solve communication problems. Offering projects adapted to the needs of each client.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Sección 3 - About -->
+        <!-- Sección 4 - Portfolio -->
+        <section class="s4" id="s4">
+            <h2>Portfolio</h2>
+            <div id="caro1" class="main-carousel">
+                <div class="carousel-cell">
+                    <div class="grey-box">
+                    <h4>Power Fest</h4>
+                    <h5>Branding y promoción</h5>
+                    </div>
+                    <img src="img/proyecto1.png" alt="proyecto">
+                </div>
+                <div class="carousel-cell">
+                    <div class="grey-box">
+                        <h4>La Barquera</h4>
+                        <h5>Branding y packaging<h5>
+                    </div>
+                    <img src="img/proyecto2.png" alt="proyecto">
+                </div>
+                <div class="carousel-cell">
+                    <div class="grey-box">
+                        <h4>Mercury</h4>
+                        <h5>Diseño Editorial</h5>
+                    </div>
+                    <img src="img/proyecto3.jpg" alt="proyecto">
+                </div>
+                <div class="carousel-cell">
+                    <div class="grey-box">
+                        <h4>Camping Playa de Tapia</h4>
+                        <h5>Branding</h5>
+                    </div>
+                    <img src="img/proyecto4.jpg" alt="proyecto">
+                </div>
+                <div class="carousel-cell">
+                    <div class="grey-box">
+                        <h4>Hipotesis</h4>
+                        <h5>Diseño Editorial</h5>
+                    </div>
+                    <img src="img/proyecto5.jpg" alt="proyecto">
+                </div>
+            </div>
+        </section>
+        <!-- Fin Sección 4 -->
+        <!-- Sección 5 - Contact -->
+        <section class="s5" id="s5">
+            <h2>Contact</h2>
+                <form class= formulario action="#" method="post">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="textarea">Tell me something about your project!</label><br>
+                    <textarea class="input-text" type="textarea" name="textarea" id="textarea"></textarea><br>
+                
+                    <button class="btn">Send</button>
+                </form>
+        </section>
+        <!-- Fin Sección 5 - Contact -->
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <h4>Teresa Mozo</h4>
+                <div class="redes">
+                    <a target="_BLANK" href="https://www.behance.net/teresamozo"><i class="fab fa-behance"></i></a>
+                    <a target="_BLANK" href="https://es.linkedin.com/in/teresamozo"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>(+34) 634 690 682<br>teresafdezmozo@gmail.com</p>
+                
+            </div>
+        </footer>
+        <!-- Fin Footer -->
+    </div>
+    <!-- Fin del Marco -->
+    <!-- Elementos comunes -->
+    <!-- Menú desplegable -->
+    <div class="menu-desplegable" id="menuDesplegable">
+        <a href="#s1">Home</a>
+        <a href="#s2">Services</a>
+        <a href="#s3">About</a>
+        <a href="#s4">Portfolio</a>
+        <a href="#s5">Contact</a>
+    </div>
+    <!-- Fin elementos comunes -->
+
+    <!-- JS Framework -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Flickity -->
+    <script src="js/flickity.pkgd.js"></script>
+    <!-- JS Propio -->
+    <script src="js/script.js"></script>
+</body>
+</html>
